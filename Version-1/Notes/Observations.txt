@@ -1,1 +1,70 @@
+# Theory and Observations: Building a Neural Network from Scratch
 
+## Introduction
+
+Building a neural network from scratch (without using high-level libraries like TensorFlow or PyTorch) is an essential exercise for understanding how deep learning works at a fundamental level. In this notebook, we implemented a simple neural network using only NumPy, enabling us to gain insight into the inner workings of forward and backward propagation, weight updates, and the training procedure.
+
+## Key Concepts and Code Overview
+
+### 1. Neural Network Architecture
+
+- **Input Layer:** Accepts feature vectors from the dataset.
+- **Hidden Layer(s):** Adds complexity, enabling the network to capture non-linear relationships.
+- **Output Layer:** Provides predictions (e.g., class scores or regression outputs).
+
+Typically, a basic neural network implements one hidden layer (Multi-Layer Perceptron, MLP), with each layer consisting of neurons having weights, biases, and an activation function.
+
+### 2. Forward Propagation
+
+Forward propagation passes inputs through the network. Each layer computes:
+
+- Weighted sum: \( z = W \cdot x + b \)
+- Activation: Apply a non-linear function (e.g., sigmoid, ReLU) — \( a = \sigma(z) \)
+
+This process continues layer by layer until the final output is produced.
+
+### 3. Loss Calculation
+
+The network’s output is compared with the true labels to compute the **loss** (e.g., Mean Squared Error or Cross-Entropy Loss). This quantifies network performance.
+
+### 4. Backward Propagation
+
+Backpropagation calculates how much each weight contributed to the error, leveraging the chain rule. For each weight and bias:
+
+- Compute the gradient of loss w.r.t. parameters.
+- This involves calculating derivatives of the activation function and propagating errors backward through the network (layer by layer).
+
+### 5. Gradient Descent and Parameter Updates
+
+Adjust each parameter (weights and biases) to reduce the loss:
+
+- \( W = W - \eta \cdot \frac{\partial L}{\partial W} \)
+- \( b = b - \eta \cdot \frac{\partial L}{\partial b} \)
+
+where \( \eta \) is the learning rate.
+
+### 6. Iterative Training
+
+The above steps are run for multiple epochs over the training data, allowing the network to learn.
+
+---
+
+## What We Learned
+
+- **Implementation Details**: Coding the network from scratch demystifies how data moves through the network and how parameter updates work.
+- **Understanding Gradient Flow**: Observing how gradients are calculated and used helps diagnose issues like vanishing or exploding gradients.
+- **Choosing Activations & Loss Functions**: Experiments demonstrate how choices like sigmoid vs. ReLU impact learning and performance.
+- **Importance of Hyperparameters**: The learning rate, number of hidden units, and epochs significantly affect convergence speed and output quality.
+- **Debugging Skills**: Building from scratch encourages careful debugging and step-by-step verification of each layer’s outputs.
+
+## Typical Observations
+
+- **Convergence**: With simple data (e.g., linearly separable), a basic MLP can achieve good results, but struggles on complex patterns unless more layers or better hyperparameters are used.
+- **Learning Dynamics**: Plotting loss over epochs shows whether the network is learning (loss decreasing), stagnating, or overfitting.
+- **Sensitivity**: Weight initialization and learning rate have a large effect; e.g., starting with too-large weights or too-high learning rate can prevent convergence.
+
+## Conclusion
+
+Constructing a neural network from scratch provides foundational knowledge about how deep learning algorithms work under the hood. It reinforces the importance of each design choice and equips us with a deeper understanding for using and debugging more advanced frameworks in the future.
+
+---
