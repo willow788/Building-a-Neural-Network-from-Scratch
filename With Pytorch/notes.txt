@@ -1,0 +1,3 @@
+this neural netwrok is made using pytorch
+activation functn - ADAM
+loss function = binary cross entropy
