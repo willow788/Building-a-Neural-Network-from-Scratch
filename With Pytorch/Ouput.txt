@@ -1,0 +1,81 @@
+Epoch 1
+-------------------------------
+Test Error: 
+ Accuracy: 90.3%, Avg loss: 0.540471 
+
+Validation Error: 
+ Accuracy: 90.3%, Avg loss: 0.543618 
+
+Epoch 2
+-------------------------------
+Test Error: 
+ Accuracy: 90.6%, Avg loss: 0.562024 
+
+Validation Error: 
+ Accuracy: 90.6%, Avg loss: 0.565020 
+
+Epoch 3
+-------------------------------
+Test Error: 
+ Accuracy: 90.3%, Avg loss: 0.578639 
+
+Validation Error: 
+ Accuracy: 90.3%, Avg loss: 0.582087 
+
+Epoch 4
+-------------------------------
+Test Error: 
+ Accuracy: 90.5%, Avg loss: 0.591958 
+
+Validation Error: 
+ Accuracy: 90.5%, Avg loss: 0.598365 
+
+Epoch 5
+-------------------------------
+Test Error: 
+ Accuracy: 90.3%, Avg loss: 0.612014 
+
+Validation Error: 
+ Accuracy: 90.3%, Avg loss: 0.610114 
+
+Epoch 6
+-------------------------------
+Test Error: 
+ Accuracy: 90.5%, Avg loss: 0.616595 
+
+Validation Error: 
+ Accuracy: 90.5%, Avg loss: 0.614810 
+
+Epoch 7
+-------------------------------
+Test Error: 
+ Accuracy: 90.5%, Avg loss: 0.640177 
+
+Validation Error: 
+ Accuracy: 90.5%, Avg loss: 0.638069 
+
+Epoch 8
+-------------------------------
+Test Error: 
+ Accuracy: 90.4%, Avg loss: 0.659647 
+
+Validation Error: 
+ Accuracy: 90.4%, Avg loss: 0.664037 
+
+Epoch 9
+-------------------------------
+Test Error: 
+ Accuracy: 90.5%, Avg loss: 0.660667 
+
+Validation Error: 
+ Accuracy: 90.5%, Avg loss: 0.665548 
+
+Epoch 10
+-------------------------------
+Test Error: 
+ Accuracy: 90.5%, Avg loss: 0.703896 
+
+Validation Error: 
+ Accuracy: 90.5%, Avg loss: 0.701559 
+
+Done!
