@@ -94,16 +94,6 @@ This repo is intentionally simple to edit!
 
 ---
 
-## 🧪 Example Results
-
-<p align="center">
-  <img src="https://i.imgur.com/uVituBR.png" width="430" alt="Sample accuracy plot"/>
-  <br/>
-  <i>Sample: training & validation accuracy (add your own GIF or plot!)</i>
-</p>
-
----
-
 ## 🎬 Add a Live Demo GIF (Optional)
 
 Want a live animation?
