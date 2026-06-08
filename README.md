@@ -78,7 +78,7 @@ This repo is intentionally simple to edit!
 - **More epochs, learning rate, etc.:** Edit `main.py`
 - **Dataset:** Swap out FashionMNIST in `dataloader.py` for another dataset!
 
-💡 _All major variables are plain Python you can tweak—no magic!_
+💡 _All major variables are plain Python you can tweak—no magic!
 
 ---
 
